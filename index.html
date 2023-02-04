@@ -3,12 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/estilo.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 	<title>Pre-entrega-1</title>
 	
 </head>
 <body>
+	
+	
 	<header class="navBack">
 		<div id="top">
 			<img class="logo" src="assets/img/logo.jpg" alt="logo_sitio">
@@ -34,15 +41,58 @@
 			</ul> 
 		</nav>
 	</header>
+	
+	<div class="carrousel-todo">
+		<div id="carouselExampleDark" class="carousel carousel-dark slide">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active" data-bs-interval="10000">
+				<img src="./assets/img/carrousel1.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>MODA VERANO 2023</h5>
+				  <p>ENERO - MARZO</p>
+				</div>
+			  </div>
+			  <div class="carousel-item" data-bs-interval="2000">
+				<img src="./assets/img/carrousel2.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>MODA INVIERNO 2022</h5>
+				  <p>MIRA LAS TENDENCIAS DEL AÑO PASADO</p>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<img src="./assets/img/carrousel3.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+				  <h5>CONOCE MAS</h5>
+				  <p>10 AÑOS JUNTOS</p>
+				</div>
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+		</div>
+	<div class="container">
+	  
 	<section class="container">
-		<h1>
-			Kolbe clothes
+		<h1 class="animate__animated animate__bounce">
+				Kolbe clothes         
 		</h1>
 		<p>
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis voluptas est quaerat dicta maiores sit amet cum illum, corporis accusantium officiis in quasi placeat molestiae tempore tenetur, perspiciatis omnis enim incidunt modi veritatis ipsa laudantium quod reprehenderit. Aperiam veritatis corrupti ipsam ea atque, aut sunt consequatur, provident vel architecto minima explicabo ut, amet non fuga. Harum eius, voluptas ipsa consequuntur dignissimos impedit, reiciendis vero consectetur officiis 
 		</p>
 	</section>
-	<section class="container-fluid">
+	<section class="container">
 		<h2>
 			Nuestra historia
 		</h2>
@@ -50,11 +100,17 @@
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint, iure cumque a minus porro et culpa pariatur recusandae, quis consectetur at ex sunt maiores necessitatibus excepturi! Rem exercitationem repellat in quae asperiores sunt quibusdam atque voluptate, illum quas fugit nostrum veritatis animi omnis minus. Porro dolorum cupiditate, magnam velit fugit saepe in quaerat odit modi laborum ab, fuga numquam doloribus. Ut 
 		</p>
 	</section>
+
 	<section class="section3">
 		<h3>
 			Ultimas Publicaciones
-		</h3>
+			<br>
+			
+		
+		
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/rUrX-H1iZek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	   </h3>
+	    
 
 	</section>
 	<footer>
@@ -63,5 +119,10 @@
 			<h5>Ir arriba</h5>
 		</a>
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
