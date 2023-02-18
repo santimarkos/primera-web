@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    background-color: hsla(277, 100%, 87%, 0.976);
+
+    }
+
+h1, h2, h3{
+
+           color: #ffffff;
+           text-align: center;
+           padding: 20px;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,        sans-serif
+          }
+
+
+h5{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin: 0;   
+   }
+
+nav{
+    text-align: center;
+   }
+
+footer{ 
+       background-color: #000000;
+      }
+
+ul{
+   padding-left: 0;
+  }

@@ -1,0 +1,67 @@
+@import "./reset";
+@import"./variables";
+@import "./views/contacto";
+@import "./views/inicio";
+@import "./views/nosotros";
+@import "./views/ropa";
+@import "./views/unisex";
+
+
+ 
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+#top{
+    text-align: center;
+
+}
+.menu{
+    background-color: $primary;
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    height: 60px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    & .item {
+             & a{
+                 color:black;
+                 text-decoration: none;
+                 font-weight: bolder;
+                 padding: 10px;
+                 }
+              
+            }
+    & .submenu{
+               z-index: 1;
+               position: absolute;
+               list-style-type: none;
+               display: none;
+               & .sub_i{
+                font-size: 0.8rem;
+                display: flex;
+               }
+              }
+   }
+
+
+.menu .item:hover .submenu{
+    display: flex;
+    flex-direction: column;
+}
+.menu .item:hover a{
+    background-color: #5b248e;
+    color:white
+}
+.footer{
+    background-color: #000000;
+}
+.section3-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: rgba(230, 189, 255, 0.976); }
+
+h1, h2, h3 {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,        sans-serif; }
+
+h5 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0; }
+
+nav {
+  text-align: center; }
+
+footer {
+  background-color: #000000; }
+
+ul {
+  padding-left: 0; }
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.donde-estamos, .redes {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.redes {
+  list-style-type: none; }
+
+.ytvideo-section-3 {
+  width: 400px;
+  height: 200px; }
+
+.section1 p {
+  background-color: #ceadf07c;
+  line-height: 1.5;
+  padding: 20px; }
+
+.card-group {
+  gap: 20px;
+  margin-bottom: 20px; }
+
+.catalogo {
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px; }
+  @media only screen and (max-width: 500px) {
+    .catalogo {
+      display: flex;
+      flex-direction: column;
+      padding: 0 15px;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px; } }
+  .catalogo .img-ropa {
+    width: 300px;
+    background-size: contain; }
+
+.section3-ropa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; }
+
+.ver-mas-productos {
+  position: relative; }
+  .ver-mas-productos .btn {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 110px;
+    background-color: #7e6dff;
+    font-weight: bolder;
+    color: white; }
+
+.logo {
+  width: 100px;
+  border-radius: 50%; }
+
+#top {
+  text-align: center; }
+
+.menu {
+  background-color: #7e6dff;
+  list-style-type: none;
+  padding: 0;
+  width: 90%;
+  height: 60px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .menu .item a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px; }
+  .menu .submenu {
+    z-index: 1;
+    position: absolute;
+    list-style-type: none;
+    display: none; }
+    .menu .submenu .sub_i {
+      font-size: 0.8rem;
+      display: flex; }
+
+.menu .item:hover .submenu {
+  display: flex;
+  flex-direction: column; }
+
+.menu .item:hover a {
+  background-color: #5b248e;
+  color: white; }
+
+.footer {
+  background-color: #000000; }
+
+.section3-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; }

@@ -1,0 +1,32 @@
+.info{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+}
+%redes {
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    }
+
+@each $seccion in $secciones {
+
+    @if $seccion == "redes"{
+        .#{$seccion} {
+            @extend %redes;
+            list-style-type: none;
+       
+           }
+           
+    }
+    @else {
+        .#{$seccion} {
+            @extend %redes
+       
+           }
+    }
+    
+   
+    
+    
+}
