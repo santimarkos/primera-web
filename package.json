@@ -1,5 +1,34 @@
+
 {
-  "dependencies": {
-    "animate.css": "^4.1.1"
-  }
+  "name": "primera-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/index.scss css/index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santimarkos/primera-web.git"
+  },
+
+  
+    "dependencies": {
+      "animate.css": "^4.1.1"
+    },
+    "devDependencies": {
+      "node-sass": "^8.0.0",
+      "nodemon": "^2.0.20"
+    },
+  
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santimarkos/primera-web/issues"
+  },
+  "homepage": "https://github.com/santimarkos/primera-web#readme"
 }
