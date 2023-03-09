@@ -16,7 +16,8 @@ h5 {
   color: white;
   text-align: center;
   padding: 20px;
-  margin: 0; }
+  margin: 0;
+  text-decoration: none; }
 
 nav {
   text-align: center; }
@@ -39,6 +40,14 @@ ul {
 
 .redes {
   list-style-type: none; }
+
+.redes-link {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  max-width: 300px;
+  max-height: 300px;
+  margin-bottom: 40px; }
 
 .ytvideo-section-3 {
   width: 400px;
@@ -94,7 +103,8 @@ ul {
   border-radius: 50%; }
 
 #top {
-  text-align: center; }
+  text-align: center;
+  text-decoration: none; }
 
 .menu {
   background-color: #7e6dff;
